@@ -151,4 +151,6 @@ $RECYCLE.BIN/
 
 
 [Ii]gnore/
-[Metadata]gnore/
+[Mm]etadata/
+*.meta
+CustomAssemlby.dll
