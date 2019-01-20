@@ -1,0 +1,11 @@
+LightRecording: 
+  <Guid>k__BackingField: f8d27a73-a20b-467a-bfa3-bb2fb3768321
+  <Name>k__BackingField: moveToCar
+  CommandForImage: 
+    <Guid>k__BackingField: 1877bb7b-8cae-496c-96b8-b8c9cec50adf
+    <Asset>k__BackingField: 53ab2401-1bc9-4bad-82af-c968c4e48bf1
+    <Timeout>k__BackingField: 1000
+    CommandMove: 
+      <Guid>k__BackingField: e799f5cc-bb89-4013-b0ac-1f1692c2ce06
+      <X>k__BackingField: 0
+      <Y>k__BackingField: 0

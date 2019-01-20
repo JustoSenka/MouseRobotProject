@@ -1,18 +1,16 @@
-8031b7e0-b195-4a78-9a04-c5b860f96e03: Scripts\Click unity.mrb
-41f58324-697d-4ff5-98dc-fb0934953846: Scripts\Input text.mrb
-cba343f5-ec06-4035-a67b-b500e0249d71: Scripts\moveToCar.mrb
-5c669a1d-15ae-4d81-92cd-0f61ae623b55: Scripts\working car.mrb
-afe1aa3f-1889-4955-a9bf-92642c190795: Images\Car.png
-8e545132-fb76-47be-a43b-2c1d27c3937b: Images\Crop_00.png
-5f2f8d0f-6141-4259-8c6e-9da6b1a2a883: Images\UnityAds.png
-266c3ab8-54c3-4e76-999d-b506e567ebca: Images\UnityButton.png
-7e5c76bf-2163-4b69-8df7-bb75763a66df: Images\UnityLocalButton.png
-66116bba-41e7-4b1f-96a6-64138673039c: Plugins\CustomCommand.cs
-a36798af-9b44-4f30-98a3-5b371c29f4c0: Plugins\CustomCommandDesigner.cs
-d9845969-d045-4e78-816f-38c9abc8f39e: Plugins\CustomCommandRunner.cs
-1492271e-c526-4a35-ba9d-d7a411b9f9a2: Plugins\CustomFeatureDetector.cs
-518dd772-4ae0-4b1b-bb54-e62c6d802cbf: Plugins\NewPainter.cs
-25e04673-906a-4429-84d2-5e1e2723a17d: Plugins\UserSettings.cs
-c9621e57-3721-496e-b36a-8e22e0acd253: Tests\image.mrt
-21b4aecf-81cf-4f3b-810d-f898edfe3546: Tests\test.mrt
-71440ec1-47ea-4343-9e14-4169258e3aa0: Tests\test2.mrt
+{
+  "68d978e2-e214-46c5-9c41-2ca9f0099b09": "Recordings\\moveToCar.mrb",
+  "53ab2401-1bc9-4bad-82af-c968c4e48bf1": "Images\\Car.png",
+  "540db95e-1b72-442c-ba8b-bdd027eafa8d": "Scripts\\CustomCommand.cs",
+  "05dd6b79-806e-432c-bc81-803b9b60fe2a": "Scripts\\CustomScreenPainter.cs",
+  "2f20fca1-7ee4-422e-aa89-376a2ccb0568": "Scripts\\CustomCommandRunner.cs",
+  "d3a34952-bf4a-4d47-9ba1-b5768e45b8bb": "Recordings\\rec with custom command.mrb",
+  "618c57a4-414b-4843-9e1a-d15cebdd7bea": "Scripts\\CustomCommandDesigner.cs",
+  "d665ccfc-44fa-4d16-9db2-bc66a83cf719": "Scripts\\CustomSettings.cs",
+  "48f089c9-f51d-4c32-9c71-fa7e2bebcedb": "Scripts\\CustomSettings_0.cs",
+  "b6bd87ad-9ccd-4914-91c4-52c00a2179f7": "Scripts\\CustomFeatureDetector.cs",
+  "487999cc-b7c9-4c40-9f15-5eb833cfc491": "Recordings\\move.mrb",
+  "6b842861-15dd-4168-a0ac-40046e3d917b": "Recordings\\sleep.mrb",
+  "f1fa8d95-f9e2-4539-ab9a-272a668c1a40": "Tests\\fixture.mrt",
+  "cebe6e01-950e-40aa-a4c6-aeb94071ef9c": "Assets\\CustomCommand.cs"
+}

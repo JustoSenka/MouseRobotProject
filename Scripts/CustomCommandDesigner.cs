@@ -1,9 +1,9 @@
-﻿using Robot.Abstractions;
+using Robot.Abstractions;
 using RobotEditor.Inspector;
 using RobotEditor.Utils;
 using System.ComponentModel;
 
-namespace CustomNamespace
+namespace RobotEditor.Resources.ScriptTemplates
 {
     public class CustomCommandDesigner : CommandProperties
     {

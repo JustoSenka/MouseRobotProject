@@ -1,0 +1,19 @@
+LightRecording: 
+  <Guid>k__BackingField: 3dd68f60-4d98-4b5c-911e-3af0e261dee6
+  <Name>k__BackingField: move
+  CommandMove: 
+    <Guid>k__BackingField: 434c9c4d-d3f4-41a6-8844-3b838e9fb28a
+    <X>k__BackingField: 564
+    <Y>k__BackingField: 593
+  CommandMove: 
+    <Guid>k__BackingField: 8371d612-ac27-4241-99ff-d18427729bdf
+    <X>k__BackingField: 1404
+    <Y>k__BackingField: 571
+  CommandMove: 
+    <Guid>k__BackingField: 32cb0895-c259-4e0f-9870-324a3d3a24b8
+    <X>k__BackingField: 919
+    <Y>k__BackingField: 326
+  CommandMove: 
+    <Guid>k__BackingField: 0793c99f-75a6-48ab-88c4-0e8740974f2c
+    <X>k__BackingField: 286
+    <Y>k__BackingField: 687
