@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{fff36084-9713-4415-8251-ea2bfd86aff3}</ProjectGuid>
+    <ProjectGuid>{75444d03-1a34-4a99-bfd1-049904f4b75d}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MouseRobotProject</RootNamespace>
-    <AssemblyName>MouseRobotProject_Project</AssemblyName>
+    <RootNamespace>Assets</RootNamespace>
+    <AssemblyName>Assets_Project</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -65,12 +65,7 @@
 	<Reference Include="System.Core.dll"/>
   </ItemGroup>
   <ItemGroup>
-	<Compile Include="Assets\Scripts\CustomCommand.cs"/>
-	<Compile Include="Assets\Scripts\CustomCommandDesigner.cs"/>
-	<Compile Include="Assets\Scripts\CustomCommandRunner.cs"/>
-	<Compile Include="Assets\Scripts\CustomFeatureDetector.cs"/>
-	<Compile Include="Assets\Scripts\CustomScreenPainter.cs"/>
-	<Compile Include="Assets\Scripts\CustomSettings.cs"/>
+
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
  </Project>

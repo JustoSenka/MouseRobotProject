@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseRobotProject_Project", "MouseRobotProject_Project.csproj", "{FFF36084-9713-4415-8251-EA2BFD86AFF3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assets_Project", "Assets_Project.csproj", "{75444D03-1A34-4A99-BFD1-049904F4B75D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,15 +10,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FFF36084-9713-4415-8251-EA2BFD86AFF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FFF36084-9713-4415-8251-EA2BFD86AFF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FFF36084-9713-4415-8251-EA2BFD86AFF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FFF36084-9713-4415-8251-EA2BFD86AFF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75444D03-1A34-4A99-BFD1-049904F4B75D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75444D03-1A34-4A99-BFD1-049904F4B75D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75444D03-1A34-4A99-BFD1-049904F4B75D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75444D03-1A34-4A99-BFD1-049904F4B75D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {043A949E-F9CF-4768-9CAF-EF3D89040854}
+		SolutionGuid = {928250F3-A8B7-48C0-9329-1AD7F15BF7A0}
 	EndGlobalSection
 EndGlobal
