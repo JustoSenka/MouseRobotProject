@@ -1,0 +1,27 @@
+LightTestFixture: 
+  Guid: 0f06dcce-ee33-4683-9164-342c39e568e7
+  Name: aaaa
+  LightRecording: 
+    Guid: 6021fded-8572-4ebf-9e37-5e20387b5724
+    Name: Setup
+  LightRecording: 
+    Guid: 2f21f8dd-e41b-430d-a302-1787e05320c7
+    Name: TearDown
+  LightRecording: 
+    Guid: 6a6b46e2-8907-4fa8-89e7-2d066968d39c
+    Name: OneTimeSetup
+  LightRecording: 
+    Guid: 375442fa-8db3-4394-af53-81ee4c4d53ee
+    Name: OneTimeTeardown
+  LightRecording: 
+    Guid: fc4a606a-75fd-4172-b7c4-ece913688d09
+    Name: New Test
+  LightRecording: 
+    Guid: 4b2157a9-73ba-4b3e-8f6e-5ae5bcae7bf4
+    Name: New Test1
+  LightRecording: 
+    Guid: 8f04e7ab-18c8-4e52-981c-5ccef8bb7bcb
+    Name: New Test2
+  LightRecording: 
+    Guid: 79aee453-2279-48f7-99a4-8efa0ab7c44f
+    Name: New Test3

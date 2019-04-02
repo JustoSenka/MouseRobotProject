@@ -1,0 +1,74 @@
+LightTestFixture: 
+  Guid: c0cc1b41-9f52-4969-a224-b2cb7ba63f44
+  Name: meaningful
+  LightRecording: 
+    Guid: 08b934ee-4597-49ac-b095-0372a3588b42
+    Name: Setup
+  LightRecording: 
+    Guid: f9a9ac42-baff-47cd-badb-f1d230f0ee57
+    Name: TearDown
+  LightRecording: 
+    Guid: e438703c-9544-4d23-9f1c-c19064cea3e2
+    Name: OneTimeSetup
+  LightRecording: 
+    Guid: a14958a2-6bac-42a6-a6c4-ffeaa9c4ffb3
+    Name: OneTimeTeardown
+  LightRecording: 
+    Guid: 1555c1c7-8b3c-4ae8-9017-7a6f2fa4d83c
+    Name: Move Mouse
+    CommandMove: 
+      Guid: fcbde817-a4ed-4cb8-8621-df3f88830427
+      X: 0
+      Y: 0
+  LightRecording: 
+    Guid: c04756d7-9234-416b-808d-a32249b03788
+    Name: Execute recording
+    CommandRunRecording: 
+      Guid: 7c2f415b-2ce7-450e-b35f-116387720e80
+      Asset: 23eb8da9-88e2-42ba-851b-e898cb203292
+  LightRecording: 
+    Guid: ad7b88f6-31ba-4f4b-a2c9-9ac0f89ecca0
+    Name: DragCarAround
+    CommandForImage: 
+      Guid: fce530b8-dc84-4d77-932b-8da66f9787fc
+      Asset: 99bfa1fd-307f-40e6-916a-826c718fc660
+      Timeout: 1000
+      ForEach: False
+      DetectionMode: Default
+      CommandMove: 
+        Guid: bc0b2278-a407-4920-b0df-1fc3b9ea510b
+        X: 0
+        Y: 0
+      CommandDown: 
+        Guid: a8fd96b8-9ed5-4d9d-a7ac-a2a0986c0799
+        X: 0
+        Y: 0
+        DontMove: False
+        MouseButton: Left
+      CommandSleep: 
+        Guid: 3bce0fdd-1f9e-4a69-8454-a91c9d794c53
+        Time: 50
+    CommandMove: 
+      Guid: de110388-ed78-4af2-ab13-5c8c9a936339
+      X: 1670
+      Y: 870
+    CommandRelease: 
+      Guid: 476cc788-c04a-4616-9d4e-053f625348df
+      X: 0
+      Y: 0
+      DontMove: True
+  LightRecording: 
+    Guid: 3fbc076f-038c-4a55-8ef1-832ef46c8357
+    Name: If Image is visible pass and stop execution
+    CommandIfImageVisible: 
+      Guid: fa005119-b631-457f-883e-6a5f0b93ac30
+      Asset: 99bfa1fd-307f-40e6-916a-826c718fc660
+      Timeout: 1000
+      ExpectTrue: True
+      DetectionMode: Default
+      CommandPass: 
+        Guid: c094a78c-b925-4157-9c1d-8d3255e952c0
+    CommandMove: 
+      Guid: 66146bf4-5554-43ba-a2de-6fd7468b7a92
+      X: 500
+      Y: 500

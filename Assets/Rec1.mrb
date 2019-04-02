@@ -1,0 +1,122 @@
+LightRecording: 
+  Guid: 637de032-47a2-43f7-876a-7292c3600411
+  Name: Rec1
+  CommandMove: 
+    Guid: 79d1812d-fb14-43dc-82f9-fa2486ee1029
+    X: 1670
+    Y: 870
+  CustomCommand: 
+    Guid: 02b3a3f0-9047-41bd-8d30-022baa21347c
+    SomeInt: 5
+    CommandMove: 
+      Guid: 064f891f-075c-4d16-abdf-5a90b709e46f
+      X: 0
+      Y: 0
+    CustomCommand: 
+      Guid: 29ce0d73-a71e-4b5f-a27d-fafa5c16de84
+      SomeInt: 5
+      CommandMove: 
+        Guid: 7cde4864-7efc-4f7a-8eb7-78d8aa0c4a24
+        X: 0
+        Y: 0
+      CommandLog: 
+        Guid: 67a51c59-936c-45b2-afb7-bace64c278e7
+        Number: 0
+      CommandRunRecording: 
+        Guid: 4c46f3b3-1c10-44d5-ae35-6f4a07db66ce
+        Asset: 23eb8da9-88e2-42ba-851b-e898cb203292
+      CommandMove: 
+        Guid: b27231c3-f877-4eb9-87ba-96590d516081
+        X: 0
+        Y: 0
+    CommandMove: 
+      Guid: fb403316-95d0-48c8-9985-6be836d031cf
+      X: 0
+      Y: 0
+    CustomCommand: 
+      Guid: 7c1a9b81-5d80-4593-8f8b-9ad69def6a09
+      SomeInt: 5
+      CustomCommand: 
+        Guid: b78db630-3cc2-46f5-8b1d-8bc820afa179
+        SomeInt: 5
+        CommandMove: 
+          Guid: caabb829-8df8-4b4a-811f-d2b7696ff244
+          X: 500
+          Y: 500
+        CommandLog: 
+          Guid: cb05e72c-35bb-432e-bc60-c38638d17fcb
+          Number: 0
+        CommandRunRecording: 
+          Guid: 0091e200-1778-43c6-8072-e678ad12854c
+          Asset: 23eb8da9-88e2-42ba-851b-e898cb203292
+        CommandMove: 
+          Guid: b81d4703-6f40-43d5-9a87-3a2fe0b8017d
+          X: 0
+          Y: 0
+      CommandMove: 
+        Guid: f99005b6-0c60-4d33-8f16-cba46f8aa69a
+        X: 0
+        Y: 0
+      CommandMove: 
+        Guid: 87e81d9e-3ef9-4bb1-b288-bb68483ac6a9
+        X: 0
+        Y: 0
+      CommandMove: 
+        Guid: 58112e4e-dd99-40fa-9c24-1ba246819eb4
+        X: 500
+        Y: 500
+      CommandMove: 
+        Guid: 76168f25-128b-4ad2-a371-b9742fceadac
+        X: 0
+        Y: 0
+      CommandLog: 
+        Guid: 68f47b26-27cf-4360-8e81-a87439cb6119
+        Number: 0
+      CommandMove: 
+        Guid: 31022fee-8777-4503-adef-8a2dbe3ebce1
+        X: 0
+        Y: 0
+      CustomCommand: 
+        Guid: 838380e0-c08a-453e-8c3d-ff3e39ed5c1f
+        SomeInt: 5
+        CommandMove: 
+          Guid: 316c3155-878d-4de2-a280-8b7da00fa4a8
+          X: 0
+          Y: 0
+        CommandMove: 
+          Guid: 32cb0895-c259-4e0f-9870-324a3d3a24b8
+          X: 919
+          Y: 326
+        CommandMove: 
+          Guid: 3022591f-0e39-4e4f-8ea2-d810b4f7afed
+          X: 0
+          Y: 0
+        CommandMove: 
+          Guid: 16e444e0-f6b3-41e6-b751-f2dddb1a180d
+          X: 0
+          Y: 0
+        CommandRunRecording: 
+          Guid: 5e7c8baa-049b-4d29-9cce-b4703d47132e
+          Asset: 23eb8da9-88e2-42ba-851b-e898cb203292
+        CommandMove: 
+          Guid: c90f6a32-4fc1-473d-9b93-ee8c0650aa1e
+          X: 0
+          Y: 0
+      CommandMove: 
+        Guid: 59b70917-19bd-4ced-b523-a59a8d0e5668
+        X: 0
+        Y: 0
+      CommandRunRecording: 
+        Guid: f187a0c5-57cd-429c-86ec-7b0564a8f0f2
+        Asset: 23eb8da9-88e2-42ba-851b-e898cb203292
+      CommandMove: 
+        Guid: b3b60fff-3f50-4881-92fb-f6c4cd99b2e9
+        X: 0
+        Y: 0
+  CommandLog: 
+    Guid: 027608d2-fd9e-4a5e-b47f-13a0c4f0a70f
+    Number: 0
+  CommandMove: 
+    Guid: 8fde24bf-d41b-4276-a5be-9dd742555917
+    X: 500
+    Y: 500

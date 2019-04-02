@@ -1,0 +1,9 @@
+LightRecording: 
+  Guid: 637de032-47a2-43f7-876a-7292c3600411
+  Name: CustomCommandRecording
+  CommandLog: 
+    Guid: 027608d2-fd9e-4a5e-b47f-13a0c4f0a70f
+    Number: 0
+  CustomCommand: 
+    Guid: c47a8000-7eb8-4d28-82e9-5b9c91b8ba3c
+    SomeInt: 5

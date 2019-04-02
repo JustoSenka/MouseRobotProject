@@ -1,0 +1,127 @@
+LightTestFixture: 
+  Guid: c0cc1b41-9f52-4969-a224-b2cb7ba63f44
+  Name: test1
+  LightRecording: 
+    Guid: 08b934ee-4597-49ac-b095-0372a3588b42
+    Name: Setup
+  LightRecording: 
+    Guid: f9a9ac42-baff-47cd-badb-f1d230f0ee57
+    Name: TearDown
+  LightRecording: 
+    Guid: e438703c-9544-4d23-9f1c-c19064cea3e2
+    Name: OneTimeSetup
+  LightRecording: 
+    Guid: a14958a2-6bac-42a6-a6c4-ffeaa9c4ffb3
+    Name: OneTimeTeardown
+  LightRecording: 
+    Guid: ad7b88f6-31ba-4f4b-a2c9-9ac0f89ecca0
+    Name: DragCarAround
+    CommandMove: 
+      Guid: c20d3940-7f1c-433b-aa4e-2df35179fbf6
+      X: 500
+      Y: 500
+    CommandMove: 
+      Guid: de110388-ed78-4af2-ab13-5c8c9a936339
+      X: 1670
+      Y: 870
+    CommandMove: 
+      Guid: 16a4af41-e496-4f2f-b1e2-16419ecaf3fb
+      X: 1670
+      Y: 870
+  LightRecording: 
+    Guid: 1555c1c7-8b3c-4ae8-9017-7a6f2fa4d83c
+    Name: Move Mouse
+    CommandLog: 
+      Guid: 46dfc7ee-9b3c-41aa-a712-b5799ee21f58
+      Number: 0
+    CommandIfImageVisible: 
+      Guid: aee7fbf9-b720-4d40-9585-8eea87f447b8
+      Asset: 99bfa1fd-307f-40e6-916a-826c718fc660
+      Timeout: 1000
+      ExpectTrue: True
+      DetectionMode: Default
+      CommandLog: 
+        Guid: a88c6f6f-41ba-4938-a4d1-0b8283a0aa6a
+        Number: 0
+      CommandMove: 
+        Guid: 83762ced-dc17-4d0b-b8d3-a06bf2741872
+        X: 0
+        Y: 0
+  LightRecording: 
+    Guid: c04756d7-9234-416b-808d-a32249b03788
+    Name: Execute recording
+    CustomCommand: 
+      Guid: bc2df860-1f71-4f16-b8ef-3dcc202e8fca
+      SomeInt: 5
+      CommandFail: 
+        Guid: 282b0f6a-f566-4a8a-9bcc-d08323b3e0aa
+      CommandMove: 
+        Guid: e8d4bbde-a60c-4284-bed6-f38511ef4f11
+        X: 0
+        Y: 0
+      CustomCommand: 
+        Guid: c47a8000-7eb8-4d28-82e9-5b9c91b8ba3c
+        SomeInt: 5
+        CommandMove: 
+          Guid: 88d886cb-b67a-4c27-b91b-5064b195cde5
+          X: 0
+          Y: 0
+        CommandRunRecording: 
+          Guid: 7c2f415b-2ce7-450e-b35f-116387720e80
+          Asset: 23eb8da9-88e2-42ba-851b-e898cb203292
+  LightRecording: 
+    Guid: bd1b329c-6f6d-423c-948e-594b0eb084c3
+    Name: New Test
+  LightRecording: 
+    Guid: 93159f20-a3c3-4b2f-af18-10457c485fd1
+    Name: New Test1
+    CommandForImage: 
+      Guid: fce530b8-dc84-4d77-932b-8da66f9787fc
+      Asset: 99bfa1fd-307f-40e6-916a-826c718fc660
+      Timeout: 1000
+      ForEach: False
+      DetectionMode: Default
+      CommandMove: 
+        Guid: bc0b2278-a407-4920-b0df-1fc3b9ea510b
+        X: 0
+        Y: 0
+      CommandIfImageVisible: 
+        Guid: fa005119-b631-457f-883e-6a5f0b93ac30
+        Asset: 99bfa1fd-307f-40e6-916a-826c718fc660
+        Timeout: 1000
+        ExpectTrue: True
+        DetectionMode: Default
+      CommandPass: 
+        Guid: c094a78c-b925-4157-9c1d-8d3255e952c0
+    CustomCommand: 
+      Guid: 8c04ac32-7ac3-47e1-96cc-ea7240d54ff5
+      SomeInt: 5
+      CommandMove: 
+        Guid: e991fd87-ed8f-4c32-b7ae-8a870ba4ac16
+        X: 0
+        Y: 0
+      CommandMove: 
+        Guid: 03e2054c-3bd6-4527-b557-cd424f1a7819
+        X: 919
+        Y: 326
+      CommandMove: 
+        Guid: 7cedea6d-5165-4586-89ac-5716d32e9d9b
+        X: 0
+        Y: 0
+      CommandMove: 
+        Guid: f09058f7-4143-45e8-91e1-b4438294f291
+        X: 0
+        Y: 0
+      CommandRunRecording: 
+        Guid: 78e79cdc-b5fc-49f8-848e-485d45ed4018
+        Asset: 23eb8da9-88e2-42ba-851b-e898cb203292
+      CommandMove: 
+        Guid: 4c9d8e81-4857-4238-b493-b27af0af4800
+        X: 0
+        Y: 0
+  LightRecording: 
+    Guid: 4f3d7218-a847-423c-b782-09496778b812
+    Name: New Test2
+  LightRecording: 
+    Guid: 3fbc076f-038c-4a55-8ef1-832ef46c8357
+    Name: If Image is visible pass and stop execution

@@ -1,0 +1,29 @@
+LightRecording: 
+  Guid: 0b74abcd-b5f2-424f-97f4-1729b2827580
+  Name: Premature Pass
+  CommandMove: 
+    Guid: 7bba673d-bd8f-45f8-b662-71ed957ced04
+    X: 733
+    Y: 737
+  CommandMove: 
+    Guid: 229c3fa7-824c-436f-a907-975446efb1b7
+    X: 1127
+    Y: 546
+  CommandPass: 
+    Guid: 94724f34-0041-4663-8bf3-497965c86c1a
+  CommandMove: 
+    Guid: be1b9221-c72d-4b07-b9a5-0b8d53f53a79
+    X: 844
+    Y: 818
+  CommandMove: 
+    Guid: 9500d523-598b-4704-8018-bfe8e4e684c4
+    X: 1474
+    Y: 727
+  CommandMove: 
+    Guid: 97a472d6-0def-4af5-a379-720b82c8f9be
+    X: 713
+    Y: 571
+  CommandMove: 
+    Guid: c9e2b5df-1287-4581-94f2-4f10b48b9ca7
+    X: 1303
+    Y: 790

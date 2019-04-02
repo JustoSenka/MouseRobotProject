@@ -1,0 +1,71 @@
+LightTestFixture: 
+  Guid: a37e05b7-f19b-434b-87df-f93cacc4018e
+  Name: if visible tests
+  LightRecording: 
+    Guid: 0922f504-2294-40c3-9d61-d5360f3ddfae
+    Name: Setup
+  LightRecording: 
+    Guid: 6e600ded-1231-4ff5-b8d4-2ec69c667e90
+    Name: TearDown
+  LightRecording: 
+    Guid: 81f09345-8b50-44b5-bdea-e247b0efadb8
+    Name: OneTimeSetup
+  LightRecording: 
+    Guid: 3f69bbbd-7b68-41a4-af0e-892b3ea35141
+    Name: OneTimeTeardown
+  LightRecording: 
+    Guid: 898c8564-ad40-4754-9c29-4063f7d7a62b
+    Name: Fail if car is visible
+    CommandIfImageVisible: 
+      Guid: edf13040-92e0-4aff-a280-9c6aa7b1dc7b
+      Asset: 99bfa1fd-307f-40e6-916a-826c718fc660
+      Timeout: 1000
+      ExpectTrue: True
+      DetectionMode: SURF
+      CommandMove: 
+        Guid: d001537c-25ac-4334-8600-51fe70e066cf
+        X: 0
+        Y: 0
+      CommandFail: 
+        Guid: bfc1424e-b35d-451d-93e5-b1112359d7ee
+  LightRecording: 
+    Guid: c4461973-a810-4c5f-aab0-20e89074f80a
+    Name: Fail if car is not visible
+    CommandIfImageVisible: 
+      Guid: d96a465e-a3a4-4ec8-958e-692e7da9e2b0
+      Asset: 99bfa1fd-307f-40e6-916a-826c718fc660
+      Timeout: 1000
+      ExpectTrue: False
+      DetectionMode: SURF
+      CommandMove: 
+        Guid: f56f2433-72a8-4803-a095-067db8a40bb1
+        X: 0
+        Y: 0
+      CommandFail: 
+        Guid: 282b0f6a-f566-4a8a-9bcc-d08323b3e0aa
+  LightRecording: 
+    Guid: ea3fd600-61ec-413a-88c4-185fa8999791
+    Name: Pass if car is visible
+    CommandIfImageVisible: 
+      Guid: aee7fbf9-b720-4d40-9585-8eea87f447b8
+      Asset: 99bfa1fd-307f-40e6-916a-826c718fc660
+      Timeout: 1000
+      ExpectTrue: True
+      DetectionMode: Default
+      CommandMove: 
+        Guid: 83762ced-dc17-4d0b-b8d3-a06bf2741872
+        X: 0
+        Y: 0
+  LightRecording: 
+    Guid: fb349189-902b-4763-95c9-3f55702230eb
+    Name: Pass if car is not visible
+    CommandIfImageVisible: 
+      Guid: e80d8744-f9db-4be5-80c7-2b3f91151d75
+      Asset: 99bfa1fd-307f-40e6-916a-826c718fc660
+      Timeout: 1000
+      ExpectTrue: False
+      DetectionMode: SURF
+      CommandMove: 
+        Guid: 2797623f-71c7-4100-8a2c-545669c733b0
+        X: 0
+        Y: 0

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{c4d0b05b-d894-4eb3-9daa-5d5c6556fbad}</ProjectGuid>
+    <ProjectGuid>{c8ad7255-980b-45c8-b08a-b49620381bd3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MouseRobotProject</RootNamespace>
@@ -31,6 +31,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+	<Reference Include="C:\MouseRobot\RobotEditor\bin\Debug\CommandLine.dll"/>
 	<Reference Include="C:\MouseRobot\RobotEditor\bin\Debug\CommonServiceLocator.dll"/>
 	<Reference Include="C:\MouseRobot\RobotEditor\bin\Debug\Emgu.CV.World.dll"/>
 	<Reference Include="C:\MouseRobot\RobotEditor\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll"/>
@@ -63,14 +64,15 @@
 	<Reference Include="System.Drawing.dll"/>
 	<Reference Include="System.Windows.Forms.dll"/>
 	<Reference Include="System.Core.dll"/>
+	<Reference Include="Assets\Plugins\TestClassLibraryWithRefToRobot.dll"/>
   </ItemGroup>
   <ItemGroup>
 	<Compile Include="Assets\Scripts\CustomCommand.cs"/>
 	<Compile Include="Assets\Scripts\CustomCommandDesigner.cs"/>
 	<Compile Include="Assets\Scripts\CustomCommandRunner.cs"/>
-	<Compile Include="Assets\Scripts\New folder\CustomFeatureDetector.cs"/>
-	<Compile Include="Assets\Scripts\New folder\CustomScreenPainter.cs"/>
-	<Compile Include="Assets\Scripts\New folder\CustomSettings.cs"/>
+	<Compile Include="Assets\Scripts\CustomFeatureDetector.cs"/>
+	<Compile Include="Assets\Scripts\CustomScreenPainter.cs"/>
+	<Compile Include="Assets\Scripts\CustomSettings.cs"/>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
  </Project>
