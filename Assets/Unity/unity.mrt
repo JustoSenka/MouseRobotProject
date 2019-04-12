@@ -1,0 +1,116 @@
+LightTestFixture: 
+  Guid: f2ffa509-a307-488e-a3d0-82838fac3458
+  Name: unity
+  LightRecording: 
+    Guid: 1fb772db-ebce-44ab-bb9f-299f347d72ee
+    Name: Setup
+    CommandSleep: 
+      Guid: 0acaefa8-179f-4f7d-95cf-160a7b792ffa
+      Time: 80
+  LightRecording: 
+    Guid: 96bb7817-5605-4c71-9551-740439d0f1f1
+    Name: TearDown
+  LightRecording: 
+    Guid: 7af11974-8402-415a-a785-bf19add390b0
+    Name: OneTimeSetup
+  LightRecording: 
+    Guid: 779b49e9-3db8-4930-9556-1916d4e2b1bf
+    Name: OneTimeTeardown
+  LightRecording: 
+    Guid: 9c1f1c9b-9288-4cc9-8bc5-ae1dd93a00e7
+    Name: Drag empty prefab to hierarchy
+    CommandForImage: 
+      Guid: f7b8b388-c9c8-4e80-97c7-3952360862c3
+      Asset: dcbf1ab3-0108-481f-a86e-012812d8df40
+      Timeout: 2000
+      ForEach: False
+      DetectionMode: SURF
+      CommandDown: 
+        Guid: d5b62f2c-2755-4a75-8d77-ff873d4727eb
+        X: 1410
+        Y: 326
+        DontMove: False
+        MouseButton: Left
+      CommandSleep: 
+        Guid: 5b1017ae-9965-4a01-890d-f4d093fd8ace
+        Time: 50
+    CommandMove: 
+      Guid: e0f8df0b-9bb9-4b8a-abda-cba87e207998
+      X: 828
+      Y: 282
+    CommandSleep: 
+      Guid: 0b3cbe7d-ebf4-4f24-afbb-6045df344fb3
+      Time: 50
+    CommandRelease: 
+      Guid: 68c3b72f-3318-4147-987f-ae9ff46c1c30
+      X: 828
+      Y: 282
+      DontMove: False
+    CommandSleep: 
+      Guid: 177cb1b0-219c-4e84-8b2c-815d4328bb59
+      Time: 20
+    CommandIfImageVisible: 
+      Guid: e2086f52-4289-4ecb-a62b-9410e8444a4c
+      Asset: 420201c2-6ed3-4dca-91a0-92019b721127
+      Timeout: 1000
+      ExpectTrue: True
+      DetectionMode: SURF
+      CommandPass: 
+        Guid: 59051d0b-8631-4a16-8499-1fb2dc47e7e8
+    CommandIfImageVisible: 
+      Guid: f9497575-bdab-4f68-b9ce-40bf42f3d98d
+      Asset: 420201c2-6ed3-4dca-91a0-92019b721127
+      Timeout: 1000
+      ExpectTrue: False
+      DetectionMode: Template
+      CommandFail: 
+        Guid: 82d631ad-2e49-484d-a13a-029fc9c1a305
+  LightRecording: 
+    Guid: 822c8b82-ab2e-478b-8935-618b6630db50
+    Name: Drag cube to scene
+    CommandForImage: 
+      Guid: e0aadbaf-82a3-4b3d-91fd-cd262c980bd3
+      Asset: f100b73a-9aa7-41e9-a921-cdae1a27212a
+      Timeout: 2000
+      ForEach: False
+      DetectionMode: PixelPerfect
+      CommandDown: 
+        Guid: eb39891f-1f86-4959-a831-687828f61cf4
+        X: 1410
+        Y: 326
+        DontMove: False
+        MouseButton: Left
+      CommandSleep: 
+        Guid: 1376b05f-70d5-4058-9a00-b24d65f8aaff
+        Time: 50
+    CommandMove: 
+      Guid: 5afc54fd-cef1-4662-8bb5-377b3ad0a2be
+      X: 828
+      Y: 282
+    CommandSleep: 
+      Guid: 3af8285a-9948-40d4-a997-413f59e86a4c
+      Time: 50
+    CommandRelease: 
+      Guid: f90469c4-ecaf-4e22-a00c-c32174d2d1ee
+      X: 828
+      Y: 282
+      DontMove: False
+    CommandSleep: 
+      Guid: ba0a58d3-6e73-4d37-b009-28391c69914f
+      Time: 20
+    CommandIfImageVisible: 
+      Guid: f968083c-9887-4c7b-8f9f-bcc21766b7e7
+      Asset: d05bc88a-db07-4947-ada6-6be3dece496d
+      Timeout: 1000
+      ExpectTrue: True
+      DetectionMode: SURF
+      CommandPass: 
+        Guid: 30e854ea-ded0-49b1-95bc-68bbf7a30f1e
+    CommandIfImageVisible: 
+      Guid: 8f4c76da-f24d-4c53-8759-85b76ba7f8e9
+      Asset: d05bc88a-db07-4947-ada6-6be3dece496d
+      Timeout: 1000
+      ExpectTrue: False
+      DetectionMode: SURF
+      CommandFail: 
+        Guid: 45935f39-0aa1-4ace-9210-691e5b934543

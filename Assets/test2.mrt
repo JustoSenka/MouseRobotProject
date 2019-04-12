@@ -45,6 +45,8 @@ LightTestFixture:
       Timeout: 1000
       ExpectTrue: False
       DetectionMode: SURF
+      CommandFail: 
+        Guid: d7d9b997-9c2f-4aa9-bad2-965d17a11c63
       CommandMove: 
         Guid: fcbde817-a4ed-4cb8-8621-df3f88830427
         X: 0
@@ -93,20 +95,26 @@ LightTestFixture:
   LightRecording: 
     Guid: ea3fd600-61ec-413a-88c4-185fa8999791
     Name: Pass if car is visible
-    CommandMove: 
-      Guid: c939a6b6-9c40-4124-8e55-4e25a25c5797
-      X: 0
-      Y: 0
-    CommandDown: 
-      Guid: a8fd96b8-9ed5-4d9d-a7ac-a2a0986c0799
-      X: 0
-      Y: 0
-      DontMove: False
-      MouseButton: Left
-    CommandMove: 
-      Guid: f0923e60-d7e0-452b-96fb-66908a011a52
-      X: 0
-      Y: 0
+    CommandIfImageVisible: 
+      Guid: ad06b00b-78cf-4eba-8e22-27374389796d
+      Asset: 99bfa1fd-307f-40e6-916a-826c718fc660
+      Timeout: 1000
+      ExpectTrue: True
+      DetectionMode: SURF
+      CommandMove: 
+        Guid: c939a6b6-9c40-4124-8e55-4e25a25c5797
+        X: 0
+        Y: 0
+      CommandDown: 
+        Guid: a8fd96b8-9ed5-4d9d-a7ac-a2a0986c0799
+        X: 0
+        Y: 0
+        DontMove: False
+        MouseButton: Left
+      CommandMove: 
+        Guid: f0923e60-d7e0-452b-96fb-66908a011a52
+        X: 0
+        Y: 0
   LightRecording: 
     Guid: fb349189-902b-4763-95c9-3f55702230eb
     Name: Pass if car is not visible

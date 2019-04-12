@@ -24,7 +24,7 @@ namespace RobotEditor.Resources.ScriptTemplates
         public void OnPaint(PaintEventArgs e)
         {
             var g = e.Graphics;
-            g.DrawString("Test lol 2", Fonts.Big, Brushes.Red, new PointF(100, 300));
+            g.DrawString("Test Build", Fonts.Default, Brushes.Red, new PointF(10, 980));
         }
     }
 }

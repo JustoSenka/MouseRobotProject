@@ -1,0 +1,33 @@
+LightRecording: 
+  Guid: 4ee31d0a-f8a7-4311-96c8-87afd7036e9e
+  Name: drag prefab
+  CommandSleep: 
+    Guid: 7774ea34-ed93-4211-bd55-a4774ff68366
+    Time: 20
+  CommandForImage: 
+    Guid: e02aec17-903a-45ec-b5fd-4d2389bfa65a
+    Asset: dcbf1ab3-0108-481f-a86e-012812d8df40
+    Timeout: 2000
+    ForEach: False
+    DetectionMode: SURF
+    CommandDown: 
+      Guid: 9ed87747-3866-46c6-95c7-aed0267132e9
+      X: 1411
+      Y: 326
+      DontMove: False
+      MouseButton: Left
+    CommandSleep: 
+      Guid: d27c7423-b4d7-41d5-9441-70ca325ad13f
+      Time: 20
+  CommandMove: 
+    Guid: 516253c1-07c5-4ed6-b9a0-3bf9063dbad3
+    X: 1412
+    Y: 195
+  CommandSleep: 
+    Guid: 09abb397-cc28-4cbe-8889-431e5a9f8feb
+    Time: 20
+  CommandRelease: 
+    Guid: e5e9421a-97d0-4b70-8cdb-ecc441ed723d
+    X: 1412
+    Y: 195
+    DontMove: False

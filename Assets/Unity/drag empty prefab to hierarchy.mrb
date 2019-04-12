@@ -1,0 +1,33 @@
+LightRecording: 
+  Guid: 8f0eaa1b-89e4-4933-9d0a-23e2f5d511ac
+  Name: drag empty prefab to hierarchy
+  CommandForImage: 
+    Guid: 9d0f2ee4-c480-4e9b-80bb-01585994b422
+    Asset: dcbf1ab3-0108-481f-a86e-012812d8df40
+    Timeout: 2000
+    ForEach: False
+    DetectionMode: Default
+    CommandDown: 
+      Guid: 8b4f9b7f-c349-4c85-804a-7381fe4f1eb8
+      X: 1413
+      Y: 330
+      DontMove: False
+      MouseButton: Left
+    CommandSleep: 
+      Guid: 93b68adc-0c22-4e2c-b2a0-b9fb7dda6518
+      Time: 20
+  CommandMove: 
+    Guid: 09800093-b15e-4f75-95c0-0e1c23baf841
+    X: 828
+    Y: 282
+  CommandSleep: 
+    Guid: 88bd0aef-53d4-4f03-9d59-cdd2d7f09bad
+    Time: 20
+  CommandRelease: 
+    Guid: df991326-0463-4fc8-af2e-368f33c4e9ea
+    X: 828
+    Y: 282
+    DontMove: False
+  CommandSleep: 
+    Guid: 3690cb07-aecd-47d3-a171-0118c05a1718
+    Time: 20

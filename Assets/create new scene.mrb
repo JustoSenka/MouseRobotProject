@@ -1,0 +1,57 @@
+LightRecording: 
+  Guid: 1da2f698-1ac1-48b8-98ca-18794718c50f
+  Name: create new scene
+  CommandSleep: 
+    Guid: 8ffb51db-f5d3-4aae-9e68-89be689efdfd
+    Time: 150
+  CommandDown: 
+    Guid: b7f4fb55-6d54-4b9d-b14f-5e5728618ac0
+    X: 22
+    Y: 37
+    DontMove: False
+    MouseButton: Left
+  CommandSleep: 
+    Guid: 6d72ba04-4fca-49b2-a242-5f50b795bc0a
+    Time: 20
+  CommandRelease: 
+    Guid: 41c93252-fc58-4065-b708-62700856601a
+    X: 22
+    Y: 37
+    DontMove: False
+  CommandSleep: 
+    Guid: 299dbe27-25c4-4cc4-8243-8e42288546dc
+    Time: 150
+  CommandDown: 
+    Guid: da505e4c-b8da-4123-b184-2a2e1607fbdd
+    X: 59
+    Y: 63
+    DontMove: False
+    MouseButton: Left
+  CommandSleep: 
+    Guid: 7f49d8a8-5443-4d1d-885d-58249aec5586
+    Time: 20
+  CommandRelease: 
+    Guid: 99d0da05-d6f4-4929-95aa-09c633f9a3f9
+    X: 59
+    Y: 63
+    DontMove: False
+  CommandSleep: 
+    Guid: d1f30d17-adb1-431f-8db8-39038658f51f
+    Time: 150
+  CommandDown: 
+    Guid: 8fc4af92-a4c8-4006-983c-be3b5f31bfbc
+    X: 1022
+    Y: 554
+    DontMove: False
+    MouseButton: Left
+  CommandSleep: 
+    Guid: 75158cf2-b31c-4c83-b7b0-29dfaa980d08
+    Time: 20
+  CommandRelease: 
+    Guid: 67b44698-135f-4b92-828a-c4637a8e5603
+    X: 1022
+    Y: 554
+    DontMove: False
+  CommandSleep: 
+    Guid: 4e10bdfd-bc5e-40fc-83c2-608307a7195c
+    Time: 150
