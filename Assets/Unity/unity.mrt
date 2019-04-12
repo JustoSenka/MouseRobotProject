@@ -24,7 +24,7 @@ LightTestFixture:
       Asset: dcbf1ab3-0108-481f-a86e-012812d8df40
       Timeout: 2000
       ForEach: False
-      DetectionMode: SURF
+      DetectionMode: PixelPerfect
       CommandDown: 
         Guid: d5b62f2c-2755-4a75-8d77-ff873d4727eb
         X: 1410
@@ -54,7 +54,7 @@ LightTestFixture:
       Asset: 420201c2-6ed3-4dca-91a0-92019b721127
       Timeout: 1000
       ExpectTrue: True
-      DetectionMode: SURF
+      DetectionMode: PixelPerfect
       CommandPass: 
         Guid: 59051d0b-8631-4a16-8499-1fb2dc47e7e8
     CommandIfImageVisible: 
@@ -62,7 +62,7 @@ LightTestFixture:
       Asset: 420201c2-6ed3-4dca-91a0-92019b721127
       Timeout: 1000
       ExpectTrue: False
-      DetectionMode: Template
+      DetectionMode: PixelPerfect
       CommandFail: 
         Guid: 82d631ad-2e49-484d-a13a-029fc9c1a305
   LightRecording: 
@@ -103,7 +103,7 @@ LightTestFixture:
       Asset: d05bc88a-db07-4947-ada6-6be3dece496d
       Timeout: 1000
       ExpectTrue: True
-      DetectionMode: SURF
+      DetectionMode: PixelPerfect
       CommandPass: 
         Guid: 30e854ea-ded0-49b1-95bc-68bbf7a30f1e
     CommandIfImageVisible: 
@@ -111,6 +111,6 @@ LightTestFixture:
       Asset: d05bc88a-db07-4947-ada6-6be3dece496d
       Timeout: 1000
       ExpectTrue: False
-      DetectionMode: SURF
+      DetectionMode: PixelPerfect
       CommandFail: 
         Guid: 45935f39-0aa1-4ace-9210-691e5b934543

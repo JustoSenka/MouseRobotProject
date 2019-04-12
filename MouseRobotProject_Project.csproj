@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0f8f0ead-06b1-4604-89cb-d9a0e7c08b01}</ProjectGuid>
+    <ProjectGuid>{7f059b49-9549-45be-bf04-ec0ee13995c2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MouseRobotProject</RootNamespace>

@@ -41,7 +41,7 @@
   "91c70a95-b05d-4657-aaa8-84613fafb37b": "Assets\\Tests\\meaningful.mrt",
   "af8f578e-abec-4205-9fa7-a2d8650e90e4": "Assets\\unity.png",
   "d05bc88a-db07-4947-ada6-6be3dece496d": "Assets\\Unity\\cube in scene.png",
-  "e62780c1-521d-4eb4-97fd-1612d96877c9": "Assets\\Crop_01.png",
+  "e62780c1-521d-4eb4-97fd-1612d96877c9": "Assets\\Unity\\Crop_01.png",
   "71e72945-0ddd-4be1-8bcb-195bc06b08c2": "Assets\\Crop_02.png",
   "533bacbd-bd76-407b-9f7c-5caf28a28c0d": "Assets\\Crop_03.png",
   "dc4e6b1d-4275-48ea-9bcf-62aea02322da": "Assets\\Crop_04.png",
@@ -55,5 +55,7 @@
   "32557c31-115a-4d67-9e98-4e70049c1b31": "Assets\\Unity\\drag prefab.mrb",
   "85e04243-630a-49de-93e5-eae90564aab3": "Assets\\Unity\\Crop_00.png",
   "6922778f-aac8-4aa3-9711-7710d5f4a0f7": "Assets\\Unity\\create new scene.mrb",
-  "8f71b90b-73e9-45fc-ae4f-b9799b4e49a7": "Assets\\create new scene.mrb"
+  "8f71b90b-73e9-45fc-ae4f-b9799b4e49a7": "Assets\\create new scene.mrb",
+  "6c1f6fa6-07e4-4127-b75c-a895afc16057": "Assets\\moveToPrefab.mrb",
+  "ab71273e-e91c-488a-876e-3aad0b2938a5": "Assets\\Crop_00.png"
 }

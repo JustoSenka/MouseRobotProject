@@ -1,0 +1,13 @@
+LightRecording: 
+  Guid: b1af18bf-287a-4f34-a21f-ceec0208436d
+  Name: moveToPrefab
+  CommandForImage: 
+    Guid: d1ec2661-71d3-42ae-8bed-a14c042a9b48
+    Asset: dcbf1ab3-0108-481f-a86e-012812d8df40
+    Timeout: 2000
+    ForEach: False
+    DetectionMode: SURF
+    CommandMove: 
+      Guid: 91278cf6-b107-42e5-98ce-62b9e829274a
+      X: 1410
+      Y: 326
