@@ -2,6 +2,8 @@ using RobotRuntime;
 using System;
 using RobotRuntime.Tests;
 using RobotRuntime.Execution;
+using WindowsInput;
+using WindowsInput.Native;
 
 namespace RobotEditor.Resources.ScriptTemplates
 {
@@ -31,8 +33,9 @@ namespace RobotEditor.Resources.ScriptTemplates
 
         public override void Run(TestData TestData)
         {
+            new InputSimulator().Keyboard.KeyPress(VirtualKeyCode.LEFT);
 
-            
+
             // TODO: RUN METHOD
             // Something could be done here, if it's more complex, CustomCommandRunner can handle it
         }

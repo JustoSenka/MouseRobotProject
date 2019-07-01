@@ -1,0 +1,26 @@
+LightRecording: 
+  Guid: 8de3bd85-07c5-4c03-8887-63c6990ea856
+  Name: click left arrow key
+  CommandSleep: 
+    Guid: ad5d899b-f773-452d-b773-7f1ff33ebb8e
+    Time: 500
+  CommandDown: 
+    Guid: bbeb0f94-ee0c-43b7-80a5-a8317cfaff2c
+    X: 1419
+    Y: 185
+    DontMove: False
+    MouseButton: Left
+  CommandSleep: 
+    Guid: 7233b2fa-c2ef-45e0-9eb3-147aaccfdbc0
+    Time: 20
+  CommandRelease: 
+    Guid: 5eaa17cf-2df5-464e-9192-f3849cb5c9be
+    X: 1419
+    Y: 185
+    DontMove: False
+  CommandSleep: 
+    Guid: cfbc1fbd-c445-4313-9c66-400492705b0b
+    Time: 500
+  CustomCommand: 
+    Guid: 36f30680-ab43-49e1-bef5-fbaa18e8afde
+    SomeInt: 5

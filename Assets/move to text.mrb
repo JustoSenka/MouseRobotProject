@@ -1,0 +1,12 @@
+LightRecording: 
+  Guid: 8202c797-80f2-45db-83a9-7c25f5020f56
+  Name: move to text
+  CommandForText: 
+    Guid: d60ea8f8-461e-4c7f-983c-a6ab4180bcf0
+    Timeout: 3000
+    ForEach: False
+    Text: Assets
+    CommandMove: 
+      Guid: a0900445-d0d3-46c8-b4e9-a3873d9702ae
+      X: 0
+      Y: 0

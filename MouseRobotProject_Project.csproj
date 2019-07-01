@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7f059b49-9549-45be-bf04-ec0ee13995c2}</ProjectGuid>
+    <ProjectGuid>{58691002-5c44-4069-b5c1-a879c3532a44}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MouseRobotProject</RootNamespace>
@@ -49,6 +49,7 @@
 	<Reference Include="C:\MouseRobot\RobotEditor\bin\Debug\System.Security.AccessControl.dll"/>
 	<Reference Include="C:\MouseRobot\RobotEditor\bin\Debug\System.Security.Permissions.dll"/>
 	<Reference Include="C:\MouseRobot\RobotEditor\bin\Debug\System.Security.Principal.Windows.dll"/>
+	<Reference Include="C:\MouseRobot\RobotEditor\bin\Debug\Tesseract.dll"/>
 	<Reference Include="C:\MouseRobot\RobotEditor\bin\Debug\Unity.Abstractions.dll"/>
 	<Reference Include="C:\MouseRobot\RobotEditor\bin\Debug\Unity.Configuration.dll"/>
 	<Reference Include="C:\MouseRobot\RobotEditor\bin\Debug\Unity.Container.dll"/>

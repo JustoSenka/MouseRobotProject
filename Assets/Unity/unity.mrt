@@ -6,7 +6,7 @@ LightTestFixture:
     Name: Setup
     CommandSleep: 
       Guid: 0acaefa8-179f-4f7d-95cf-160a7b792ffa
-      Time: 80
+      Time: 200
   LightRecording: 
     Guid: 96bb7817-5605-4c71-9551-740439d0f1f1
     Name: TearDown
@@ -33,7 +33,7 @@ LightTestFixture:
         MouseButton: Left
       CommandSleep: 
         Guid: 5b1017ae-9965-4a01-890d-f4d093fd8ace
-        Time: 50
+        Time: 150
     CommandMove: 
       Guid: e0f8df0b-9bb9-4b8a-abda-cba87e207998
       X: 828
@@ -82,7 +82,7 @@ LightTestFixture:
         MouseButton: Left
       CommandSleep: 
         Guid: 1376b05f-70d5-4058-9a00-b24d65f8aaff
-        Time: 50
+        Time: 150
     CommandMove: 
       Guid: 5afc54fd-cef1-4662-8bb5-377b3ad0a2be
       X: 828
@@ -114,3 +114,51 @@ LightTestFixture:
       DetectionMode: PixelPerfect
       CommandFail: 
         Guid: 45935f39-0aa1-4ace-9210-691e5b934543
+  LightRecording: 
+    Guid: 23991afb-a73e-4f7e-a2d8-3cba3eca6301
+    Name: Drag cube to scene based on text
+    CommandForText: 
+      Guid: 052bb012-0753-4fda-9b91-3ee2f9d7feed
+      Timeout: 4000
+      ForEach: False
+      Text: GameObject
+      CommandDown: 
+        Guid: cc603f59-4d37-4a67-8839-c77646c30ea4
+        X: 1410
+        Y: 326
+        DontMove: False
+        MouseButton: Left
+      CommandSleep: 
+        Guid: 23e86de5-7fd5-456f-904d-ec3e903cda15
+        Time: 150
+    CommandMove: 
+      Guid: 3b27b0ec-356f-4b44-a701-39a08b8a7047
+      X: 828
+      Y: 282
+    CommandSleep: 
+      Guid: 77280e41-312d-478b-ba3d-6b915081ac84
+      Time: 50
+    CommandRelease: 
+      Guid: 17f55acf-ec62-4dd8-a4c4-61b2c3618acd
+      X: 828
+      Y: 282
+      DontMove: False
+    CommandSleep: 
+      Guid: 7ba17977-4916-4dd1-a54d-a65c6545dcb0
+      Time: 20
+    CommandIfImageVisible: 
+      Guid: 769ddd59-4500-427e-9ffd-71b184e30a8a
+      Asset: 420201c2-6ed3-4dca-91a0-92019b721127
+      Timeout: 1000
+      ExpectTrue: True
+      DetectionMode: PixelPerfect
+      CommandPass: 
+        Guid: f8bcfb97-c17d-4dbe-bf70-62d905f41c5d
+    CommandIfImageVisible: 
+      Guid: 0392c48f-4877-44ec-add7-8e9d2d44e57c
+      Asset: 420201c2-6ed3-4dca-91a0-92019b721127
+      Timeout: 1000
+      ExpectTrue: False
+      DetectionMode: PixelPerfect
+      CommandFail: 
+        Guid: 0ffaef46-ed4b-4b7c-a58c-e85d96ffa9a4
