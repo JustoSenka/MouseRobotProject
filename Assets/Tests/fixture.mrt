@@ -1,27 +1,27 @@
 LightTestFixture: 
-  <Guid>k__BackingField: 5eb83156-bdb0-4ca4-a7e4-5c8f9a36a025
-  <Name>k__BackingField: fixture
+  Guid: 3b7b2607-5da9-4614-901e-4312941348ec
+  Name: fixture
   LightRecording: 
-    <Guid>k__BackingField: fe316db8-4db5-44a9-8aa0-a4c7f15a4412
-    <Name>k__BackingField: Setup
+    Guid: fe316db8-4db5-44a9-8aa0-a4c7f15a4412
+    Name: Setup
   LightRecording: 
-    <Guid>k__BackingField: 7e09007d-6006-4643-8383-6a87a88afda6
-    <Name>k__BackingField: TearDown
+    Guid: 7e09007d-6006-4643-8383-6a87a88afda6
+    Name: TearDown
   LightRecording: 
-    <Guid>k__BackingField: a4b44349-0bf5-434a-abe5-fc79612eef6e
-    <Name>k__BackingField: OneTimeSetup
+    Guid: a4b44349-0bf5-434a-abe5-fc79612eef6e
+    Name: OneTimeSetup
   LightRecording: 
-    <Guid>k__BackingField: 01db52a3-0bb0-49dc-ae79-c3b9c6dbf977
-    <Name>k__BackingField: OneTimeTeardown
+    Guid: 01db52a3-0bb0-49dc-ae79-c3b9c6dbf977
+    Name: OneTimeTeardown
   LightRecording: 
-    <Guid>k__BackingField: 06397df3-3637-44f6-9bd0-3d09aa8eaa53
-    <Name>k__BackingField: sleep
+    Guid: 06397df3-3637-44f6-9bd0-3d09aa8eaa53
+    Name: sleep
     CommandSleep: 
-      <Guid>k__BackingField: 28ecd081-ca06-4b3f-bd80-8b25fd395ca3
-      <Time>k__BackingField: 200
+      Guid: 28ecd081-ca06-4b3f-bd80-8b25fd395ca3
+      Time: 200
     CommandSleep: 
-      <Guid>k__BackingField: 0c403954-ca8e-4ddc-b458-1cbe51a2c3fe
-      <Time>k__BackingField: 200
+      Guid: 0c403954-ca8e-4ddc-b458-1cbe51a2c3fe
+      Time: 200
     CommandSleep: 
-      <Guid>k__BackingField: acff654e-8684-43b6-a107-24994c8e6c84
-      <Time>k__BackingField: 200
+      Guid: acff654e-8684-43b6-a107-24994c8e6c84
+      Time: 200

@@ -1,5 +1,5 @@
 LightTestFixture: 
-  Guid: f2ffa509-a307-488e-a3d0-82838fac3458
+  Guid: d7ed87ea-8e91-4f6f-81a7-4ed2344499df
   Name: unity
   LightRecording: 
     Guid: 1fb772db-ebce-44ab-bb9f-299f347d72ee
@@ -119,9 +119,11 @@ LightTestFixture:
     Name: Drag cube to scene based on text
     CommandForText: 
       Guid: 052bb012-0753-4fda-9b91-3ee2f9d7feed
+      Text: GameObject
+      TextDetectionMode: Default
+      TextComparisonThreshold: 0.8
       Timeout: 4000
       ForEach: False
-      Text: GameObject
       CommandDown: 
         Guid: cc603f59-4d37-4a67-8839-c77646c30ea4
         X: 1410

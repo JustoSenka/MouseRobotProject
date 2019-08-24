@@ -151,3 +151,5 @@ $RECYCLE.BIN/
 
 [Ii]gnore/
 CustomAssembly.dll
+*.sln
+*.proj
