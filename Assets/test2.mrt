@@ -55,6 +55,9 @@ LightTestFixture:
         Guid: a58b0a37-ebce-4385-8917-68b29bf65d66
         Number: 0
       CustomCommand: 
+        Guid: 997fb217-17d1-4f79-a043-97f07b3b1526
+        SomeInt: 20
+      CustomCommand: 
         Guid: 34cf91cf-d56b-4c1b-8bb4-e30e614bb0fe
         SomeInt: 5
         CustomCommand: 

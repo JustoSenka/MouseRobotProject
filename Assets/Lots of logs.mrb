@@ -1,0 +1,30 @@
+LightRecording: 
+  Guid: 986b717e-6bdd-4afd-b6d0-8434a6deec48
+  Name: Lots of logs
+  CustomCommand: 
+    Guid: 860c0bdd-a145-4415-9c40-e9ebd4fd1a77
+    SomeInt: 20
+  CustomCommand: 
+    Guid: c694aa7b-bbd6-40c8-8365-0fe1e5efc181
+    SomeInt: 20
+  CustomCommand: 
+    Guid: cc472203-8e51-475e-83de-33769689d2e6
+    SomeInt: 20
+  CustomCommand: 
+    Guid: f9455b00-3077-4049-b51d-bf6c7a90ce77
+    SomeInt: 20
+  CustomCommand: 
+    Guid: 7893527d-9ec7-412c-a9fb-800b9abfecb6
+    SomeInt: 20
+  CustomCommand: 
+    Guid: 5b8250c9-41f8-442a-aded-1701737eb2e9
+    SomeInt: 20
+  CustomCommand: 
+    Guid: 0bfeb46e-1bf6-4733-899d-df1f19faa69f
+    SomeInt: 20
+  CustomCommand: 
+    Guid: 8068276f-ea25-4293-a9e3-b198d41119e3
+    SomeInt: 20
+  CustomCommand: 
+    Guid: 997fb217-17d1-4f79-a043-97f07b3b1526
+    SomeInt: 20

@@ -33,8 +33,12 @@ namespace RobotEditor.Resources.ScriptTemplates
 
         public override void Run(TestData TestData)
         {
-            new InputSimulator().Keyboard.KeyPress(VirtualKeyCode.LEFT);
+            // new InputSimulator().Keyboard.KeyPress(VirtualKeyCode.LEFT);
 
+            for (int i = 0; i < SomeInt; i++)
+            {
+                Logger.Log(LogType.Log, "log " + i);
+            }
 
             // TODO: RUN METHOD
             // Something could be done here, if it's more complex, CustomCommandRunner can handle it
