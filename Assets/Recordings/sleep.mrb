@@ -1,12 +1,12 @@
 LightRecording: 
-  <Guid>k__BackingField: 731211e3-1287-4f82-b8df-d8b40e307dfd
-  <Name>k__BackingField: sleep
+  Guid: aa088609-3ce4-4869-916c-531973850471
+  Name: sleep
   CommandSleep: 
-    <Guid>k__BackingField: 9c3ebd28-5895-4645-a5d3-7c57584ae6e4
-    <Time>k__BackingField: 500
+    Guid: 9c3ebd28-5895-4645-a5d3-7c57584ae6e4
+    Time: 500
   CommandSleep: 
-    <Guid>k__BackingField: 8b41f36b-032c-4aab-b25b-ad15e8546600
-    <Time>k__BackingField: 500
+    Guid: 8b41f36b-032c-4aab-b25b-ad15e8546600
+    Time: 500
   CommandSleep: 
-    <Guid>k__BackingField: 627c6337-6147-4c2a-ad61-17a609ced98b
-    <Time>k__BackingField: 500
+    Guid: 627c6337-6147-4c2a-ad61-17a609ced98b
+    Time: 500

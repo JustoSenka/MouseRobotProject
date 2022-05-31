@@ -1,12 +1,12 @@
 LightRecording: 
-  <Guid>k__BackingField: d83592a6-0edc-4d34-a21f-f0093262bdf6
-  <Name>k__BackingField: rec with custom command
+  Guid: 282aa93b-e843-4ff5-9152-49facd997157
+  Name: rec with custom command
   CommandSleep: 
-    <Guid>k__BackingField: 7b76a034-e82c-47c7-8529-2790f9f9a861
-    <Time>k__BackingField: 500
+    Guid: 7b76a034-e82c-47c7-8529-2790f9f9a861
+    Time: 500
   CustomCommand: 
-    <Guid>k__BackingField: bc4d77d8-29c6-419b-bb24-2cbe79d0149c
-    <SomeInt>k__BackingField: 12
+    Guid: bc4d77d8-29c6-419b-bb24-2cbe79d0149c
+    SomeInt: 12
   CommandSleep: 
-    <Guid>k__BackingField: 2cb95119-87b1-4454-8026-92115457da1f
-    <Time>k__BackingField: 500
+    Guid: 2cb95119-87b1-4454-8026-92115457da1f
+    Time: 500
